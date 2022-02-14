@@ -6,5 +6,11 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  title= 'blog'
+  data="hello interpolation"
+
+  getData(){
+  return "interpolation with function"
+  }
+
+  num= 100;
 }
